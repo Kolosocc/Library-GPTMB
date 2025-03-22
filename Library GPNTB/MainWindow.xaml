@@ -1,0 +1,69 @@
+﻿<Window x:Class="Library_GPNTB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Vertical">
+                <Label Content="Поиск"/>
+                <TextBox Name="Text_find" Width="150" TextChanged="TextBox_TextChanged"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="10 0 0 0">
+                <Label Content="Жанр"/>
+                <ComboBox Width="150" Name="Filter_Book_ComboBox" SelectionChanged="Filter_Book_ComboBox_SelectionChanged">
+                    <ComboBoxItem Content="Genre"/>
+                    <ComboBoxItem Content="Name"/>
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="10 0 0 0">
+                <Label Content="Сортировать по"/>
+                <ComboBox Width="150" Name="Sort_Book_ComboBox" SelectionChanged="Sort_Book_ComboBox_SelectionChanged">
+                    <ComboBoxItem Content="Genre"/>
+                    <ComboBoxItem Content="Name"/>
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel>
+            <ListView Name="ListViewBooks" SelectionChanged="ListViewBooks_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Название" DisplayMemberBinding="{Binding Name}"/>
+                        <GridViewColumn Header="Жанр" DisplayMemberBinding="{Binding Genre}"/>
+                        <GridViewColumn Header="Описание" DisplayMemberBinding="{Binding Description}"/>
+                        <GridViewColumn Header="Дата сдачи" DisplayMemberBinding="{Binding DateReturn}"/>
+                        <GridViewColumn Header="Статус" DisplayMemberBinding="{Binding Status}"/>
+                        <GridViewColumn Header="Читатель" DisplayMemberBinding="{Binding Reader.Name}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <ListView Name="ListViewUsers">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="ID" DisplayMemberBinding="{Binding UserId}"/>
+                        <GridViewColumn Header="Имя" DisplayMemberBinding="{Binding Name}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Выдать книгу" Name="User_add" Click="User_add_Click"/>
+            <Button Content="Вернуть книгу" Name="User_dell" Click="User_dell_Click" Margin="10 0 0 0"/>
+            <Button Content="Удалить книгу" Click="DeleteBook_Click" Margin="10 0 0 0" />
+            <Button Content="Изменить жанр на обслуживание" Click="ChangeToMaintenance_Click" Margin="10 0 0 0"/>
+            <Button Content="Выдать с обсудживания" Click="Remove_Maintenance_Click" Margin="10 0 0 0"/>
+        </StackPanel>
+
+        <StackPanel>
+            <StackPanel Orientation="Vertical">
+                <Label Content="Название"/>
+                <TextBox Name="EditNameTextBox" Width="200" />
+                <Label Content="Жанр"/>
+                <TextBox Name="EditGenreTextBox" Width="200" />
+                <Label Content="Описание"/>
+                <TextBox Name="EditDescriptionTextBox" Width="200" />
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Window>

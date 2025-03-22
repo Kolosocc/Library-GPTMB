@@ -1,0 +1,19 @@
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\App.g.cs
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\Library GPNTB_MarkupCompile.cache
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\bin\Debug\net8.0-windows\Library GPNTB.exe
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\bin\Debug\net8.0-windows\Library GPNTB.deps.json
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\bin\Debug\net8.0-windows\Library GPNTB.runtimeconfig.json
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\bin\Debug\net8.0-windows\Library GPNTB.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\bin\Debug\net8.0-windows\Library GPNTB.pdb
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\Library GPNTB.g.resources
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\Library GPNTB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\Library GPNTB.AssemblyInfoInputs.cache
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\Library GPNTB.AssemblyInfo.cs
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\Library GPNTB.csproj.CoreCompileInputs.cache
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\Library GPNTB.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\refint\Library GPNTB.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\Library GPNTB.pdb
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\Library GPNTB.genruntimeconfig.cache
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Library GPNTB\obj\Debug\net8.0-windows\ref\Library GPNTB.dll
