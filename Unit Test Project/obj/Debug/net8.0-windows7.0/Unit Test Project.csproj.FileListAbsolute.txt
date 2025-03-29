@@ -1,0 +1,118 @@
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\CoverletSourceRootsMapping_Unit Test Project
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\testhost.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Library GPNTB.deps.json
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Library GPNTB.runtimeconfig.json
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Library GPNTB.exe
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\testhost.exe
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Unit Test Project.deps.json
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Unit Test Project.runtimeconfig.json
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Unit Test Project.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Unit Test Project.pdb
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.TestPlatform.Utilities.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Newtonsoft.Json.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\NuGet.Frameworks.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\cs\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\de\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\it\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ja\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ko\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\tr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Library GPNTB.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Library GPNTB.pdb
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\bin\Debug\net8.0-windows7.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\obj\Debug\net8.0-windows7.0\Unit Test Project.csproj.AssemblyReference.cache
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\obj\Debug\net8.0-windows7.0\Unit Test Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\obj\Debug\net8.0-windows7.0\Unit Test Project.AssemblyInfoInputs.cache
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\obj\Debug\net8.0-windows7.0\Unit Test Project.AssemblyInfo.cs
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\obj\Debug\net8.0-windows7.0\Unit Test Project.csproj.CoreCompileInputs.cache
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\obj\Debug\net8.0-windows7.0\Unit Test Project.sourcelink.json
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\obj\Debug\net8.0-windows7.0\Unit Tes.F9549552.Up2Date
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\obj\Debug\net8.0-windows7.0\Unit Test Project.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\obj\Debug\net8.0-windows7.0\refint\Unit Test Project.dll
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\obj\Debug\net8.0-windows7.0\Unit Test Project.pdb
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\obj\Debug\net8.0-windows7.0\Unit Test Project.genruntimeconfig.cache
+C:\Project_IT\Csh\2024(2)\Library GPNTB\Unit Test Project\obj\Debug\net8.0-windows7.0\ref\Unit Test Project.dll

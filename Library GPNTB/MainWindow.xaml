@@ -55,15 +55,18 @@
             <Button Content="Выдать с обсудживания" Click="Remove_Maintenance_Click" Margin="10 0 0 0"/>
         </StackPanel>
 
-        <StackPanel>
-            <StackPanel Orientation="Vertical">
-                <Label Content="Название"/>
-                <TextBox Name="EditNameTextBox" Width="200" />
-                <Label Content="Жанр"/>
-                <TextBox Name="EditGenreTextBox" Width="200" />
-                <Label Content="Описание"/>
-                <TextBox Name="EditDescriptionTextBox" Width="200" />
-            </StackPanel>
-        </StackPanel>
+
+         <StackPanel Orientation="Vertical">
+             <Label Content="Название"/>
+             <TextBox Name="EditNameTextBox" Width="200" MaxLength="100" />
+
+             <Label Content="Жанр"/>
+             <TextBox Name="EditGenreTextBox" Width="200" MaxLength="100" />
+
+             <Label Content="Описание"/>
+             <TextBox Name="EditDescriptionTextBox" Width="200" MaxLength="100" />
+         </StackPanel>
+
+
     </StackPanel>
 </Window>

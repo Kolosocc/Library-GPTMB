@@ -1,17 +1,11 @@
-﻿using System.Text;
+﻿using System;
+using System.Linq;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using Library_GPNTB.Context;
 using Library_GPNTB.Models;
-
-
+using Library_GPNTB.Utils;
 
 namespace Library_GPNTB
 {
@@ -19,10 +13,16 @@ namespace Library_GPNTB
     {
         LibraryContext context = new LibraryContext();
         Book selectedBook;
+        List<string> validationErrors;
 
         public MainWindow()
         {
             InitializeComponent();
+            LoadData();
+        }
+
+        private void LoadData()
+        {
             ListViewBooks.ItemsSource = context.Books.ToList();
             ListViewUsers.ItemsSource = context.Users.ToList();
         }
@@ -30,66 +30,123 @@ namespace Library_GPNTB
         private void User_add_Click(object sender, RoutedEventArgs e)
         {
             var selectedUser = ListViewUsers.SelectedItem as User;
-
-            if (selectedBook == null || selectedUser == null) return;
-
+            if (selectedBook == null)
+            {
+                MessageBox.Show("Выберите книгу для выдачи.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+            if (selectedUser == null)
+            {
+                MessageBox.Show("Выберите пользователя.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+            if (!Validator.ValidateUser(selectedUser, out var userErrors))
+            {
+                MessageBox.Show(string.Join(Environment.NewLine, userErrors), "Ошибка валидации пользователя", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+            if (selectedBook.Status != BookStatus.Available)
+            {
+                MessageBox.Show("Данная книга не доступна для выдачи.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
             selectedBook.Reader = selectedUser;
             selectedBook.Status = BookStatus.Issued;
             selectedBook.DateIssued = DateTime.Now;
             selectedBook.DateReturn = DateTime.Now.AddDays(14);
-
+            if (!Validator.ValidateBook(selectedBook, out validationErrors))
+            {
+                MessageBox.Show(string.Join(Environment.NewLine, validationErrors), "Ошибка валидации книги", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
             RefreshBookList();
-            MessageBox.Show($"Книга {selectedBook.Name} выдана {selectedUser.Name}");
+            MessageBox.Show($"Книга \"{selectedBook.Name}\" выдана пользователю \"{selectedUser.Name}\".", "Информация", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
         private void User_dell_Click(object sender, RoutedEventArgs e)
         {
-            if (selectedBook == null) return;
-
+            if (selectedBook == null)
+            {
+                MessageBox.Show("Выберите книгу для возврата.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+            if (selectedBook.Status != BookStatus.Issued)
+            {
+                MessageBox.Show("Эта книга не выдана пользователю.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+            MessageBox.Show($"Книга \"{selectedBook.Name}\" возвращена в библиотеку.", "Информация", MessageBoxButton.OK, MessageBoxImage.Information);
             selectedBook.Reader = null;
             selectedBook.Status = BookStatus.Available;
             selectedBook.DateIssued = null;
             selectedBook.DateReturn = null;
-
+            if (!Validator.ValidateBook(selectedBook, out validationErrors))
+            {
+                MessageBox.Show(string.Join(Environment.NewLine, validationErrors), "Ошибка валидации книги", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
             RefreshBookList();
-            MessageBox.Show($"Книга {selectedBook.Name} возвращена в библиотеку.");
         }
+
         private void Remove_Maintenance_Click(object sender, RoutedEventArgs e)
         {
-            if (selectedBook == null) return;
+            if (selectedBook == null)
+            {
+                MessageBox.Show("Выберите книгу для завершения обслуживания.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
             if (selectedBook.Status != BookStatus.Maintenance)
             {
-                MessageBox.Show($"У книги должен быть статус обслуживания");
+                MessageBox.Show("Статус книги должен быть 'Обслуживание'.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
             selectedBook.Name = EditNameTextBox.Text;
             selectedBook.Genre = EditGenreTextBox.Text;
             selectedBook.Description = EditDescriptionTextBox.Text;
+            if (!Validator.ValidateBook(selectedBook, out validationErrors))
+            {
+                MessageBox.Show(string.Join(Environment.NewLine, validationErrors), "Ошибка валидации книги", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
             selectedBook.Status = BookStatus.Available;
             selectedBook.DateIssued = null;
             selectedBook.DateReturn = null;
-
             RefreshBookList();
-            MessageBox.Show($"Книга {selectedBook.Name} возвращена в библиотеку.");
+            MessageBox.Show($"Книга \"{selectedBook.Name}\" возвращена в библиотеку.", "Информация", MessageBoxButton.OK, MessageBoxImage.Information);
         }
-
 
         private void DeleteBook_Click(object sender, RoutedEventArgs e)
         {
-            if (selectedBook == null) return;
-
+            if (selectedBook == null)
+            {
+                MessageBox.Show("Выберите книгу для удаления.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+            MessageBox.Show($"Книга \"{selectedBook.Name}\" удалена.", "Информация", MessageBoxButton.OK, MessageBoxImage.Information);
             context.Books.Remove(selectedBook);
             RefreshBookList();
-            MessageBox.Show($"Книга '{selectedBook.Name}' удалена.");
         }
 
         private void ChangeToMaintenance_Click(object sender, RoutedEventArgs e)
         {
-            if (selectedBook == null) return;
-
-            selectedBook.Status = BookStatus.Available;
+            if (selectedBook == null)
+            {
+                MessageBox.Show("Выберите книгу для перевода в обслуживание.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+            if (selectedBook.Status != BookStatus.Available)
+            {
+                MessageBox.Show("Данная книга не доступна для перевода в обслуживание.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+            if (!Validator.ValidateBook(selectedBook, out validationErrors))
+            {
+                MessageBox.Show(string.Join(Environment.NewLine, validationErrors), "Ошибка валидации книги", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+            selectedBook.Status = BookStatus.Maintenance;
             RefreshBookList();
-            MessageBox.Show($"Жанр книги '{selectedBook.Name}' изменен на 'Обслуживание'.");
+            MessageBox.Show($"Книга \"{selectedBook.Name}\" переведена в режим обслуживания.", "Информация", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
         private void ListViewBooks_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -110,13 +167,10 @@ namespace Library_GPNTB
             var selectedItem = Sort_Book_ComboBox.SelectedItem as ComboBoxItem;
             var propertyName = selectedItem?.Content.ToString();
             var prop = typeof(Book).GetProperty(propertyName);
-
             if (prop == null) return;
-
+            Text_find.Text = "";
             ListViewBooks.ItemsSource = context.Books.OrderBy(book => prop.GetValue(book)).ToList();
         }
-
-
 
         private void Filter_Book_ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e) => ApplyFilter();
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e) => ApplyFilter();
@@ -124,15 +178,14 @@ namespace Library_GPNTB
         private void ApplyFilter()
         {
             var selectedItem = Filter_Book_ComboBox.SelectedItem as ComboBoxItem;
+            if (selectedItem == null) return;
             var filterText = Text_find.Text.ToLower();
             var propertyName = selectedItem.Content.ToString();
             var prop = typeof(Book).GetProperty(propertyName);
-
             if (prop == null) return;
-
             var filteredBooks = context.Books
-                .Where(book => prop.GetValue(book).ToString().ToLower().Contains(filterText.ToLower())).ToList();
-
+                .Where(book => prop.GetValue(book)?.ToString()?.ToLower().Contains(filterText) == true)
+                .ToList();
             ListViewBooks.ItemsSource = filteredBooks;
         }
     }

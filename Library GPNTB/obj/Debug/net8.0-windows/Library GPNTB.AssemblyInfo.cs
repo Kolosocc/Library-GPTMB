@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Library GPNTB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b314f16db565a588fb3a6f7eb7f2c3a8a258ca75")]
 [assembly: System.Reflection.AssemblyProductAttribute("Library GPNTB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Library GPNTB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
